@@ -56,6 +56,7 @@ public class MainView extends AppLayout {
 
     private Component createContent() {
         FlexLayout tiles = new FlexLayout();
+        tiles.addClassName("tiles");
         tiles.setFlexWrap(FlexLayout.FlexWrap.WRAP);
         tiles.setWidthFull();
 

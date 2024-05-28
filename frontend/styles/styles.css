@@ -80,3 +80,14 @@
 .nav-link:hover {
   background-color: #e9ecef;
 }
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.tile:nth-child(2n+1) {
+  margin-top: 40px;
+}
