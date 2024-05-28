@@ -34,10 +34,21 @@
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   color: white;
-  width: 100%;
   padding: 10px;
   box-sizing: border-box;
-  text-align: center;
+}
+
+.tile-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.tile-link {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .tile-overlay a {
@@ -45,4 +56,27 @@
   text-decoration: none;
   border: 2px solid white;
   padding: 5px 10px;
+}
+
+.header h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.app-layout-navbar {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.nav-link {
+  padding: 15px 20px;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-link:hover {
+  background-color: #e9ecef;
 }
